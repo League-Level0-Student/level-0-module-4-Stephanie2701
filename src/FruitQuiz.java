@@ -12,12 +12,14 @@ import javax.swing.JLabel;
 
 public class FruitQuiz extends KeyAdapter {
 
+	
+	
 	void makeQuestions() {
-		question1 = new JLabel("<html>Which is not a real fruit? <br> A: Dragon Fruit <br> B: Durian <br> C: Crazyberry</html>");
+		question1 = new JLabel("<html>1. Which is not a real fruit? <br> A: Dragon Fruit <br> B: Durian <br> C: Crazyberry</html>");
 		// 11. Make another question called "question2".  Use question1 above as a guide.
-		question2 = new JLabel("<html>Which is a fake fruit? <br> A: Dragon Fruit <br> B: Durian <br> C: Crazyberry</html>");
-		question3 = new JLabel("<html>Which one has the word fruit? <br> A: Dragon Fruit <br> B: Durian <br> C: Crazyberry</html>");
-		question4 = new JLabel("<html>Which one has the word crazy? <br> A: Dragon Fruit <br> B: Durian <br> C: Crazyberry</html>");
+		question2 = new JLabel("<html>2. Which is a fake fruit? <br> A: Dragon Fruit <br> B: Durian <br> C: Crazyberry</html>");
+		question3 = new JLabel("<html>3. Which one has the word fruit? <br> A: Dragon Fruit <br> B: Durian <br> C: Crazyberry</html>");
+		question4 = new JLabel("<html>4. Which one has the word crazy? <br> A: Dragon Fruit <br> B: Durian <br> C: Crazyberry</html>");
 	
 	}
 	
@@ -63,7 +65,11 @@ public class FruitQuiz extends KeyAdapter {
 			}
 			else {
 				incorrect();
+			
 			}
+			
+			System.out.println("no more questions");
+			
 			}
 			// 13. check if it is right or wrong like you did for question1
 		
