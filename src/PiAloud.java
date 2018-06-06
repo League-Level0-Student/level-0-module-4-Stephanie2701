@@ -1,6 +1,6 @@
+
 //    Copyright (c) The League of Amazing Programmers 2013-2017
 //    Level 0
-
 
 import java.io.IOException;
 import java.util.Scanner;
@@ -9,25 +9,42 @@ public class PiAloud {
 
 	// 1. Make a main method and make sure your program can run
 	public static void main(String[] args) {
-	// 2. Make a String variable to hold the value of Pi. You could use http://www.piday.org/million/ for the value.
-String pi= "3.141592653589793238462";
+		// 2. Make a String variable to hold the value of Pi. You could use
+		// http://www.piday.org/million/ for the value.
+		String pi = "3.141592653589793238462";
 
-	// 3. Print out some digits of Pi. The first value is "pi.charAt(0)", the second is "pi.charAt(1)"
-for (int i = 0; i < pi.length(); i++) {
-	
-pi.charAt(0);
+		// 3. Print out some digits of Pi. The first value is "pi.charAt(0)", the second
+		// is "pi.charAt(1)"
 
-System.out.println(pi.charAt(0)+ " " + pi.charAt(1) + pi.charAt(2) + pi.charAt(3)+ " ");
+		pi.charAt(0);
+
+		System.out.println(pi.charAt(0) + " " + pi.charAt(1) + pi.charAt(2) + pi.charAt(3) + " ");
+
+		// 4. Print ALL the digits of of Pi (hint: use a loop)
+		for (int i = 0; i < pi.length(); i++) {
+			System.out.println(pi.charAt(i));
+			char input = getInputFromUser();
+
+			if (input == pi.charAt(i)) {
+				System.out.println("correct");
+			} else {
+				System.err.println("incorrect");
+			}
+		
+
+		// 5. Use the speak() method to speak all the digits of Pi.
+		speak(pi.charAt(i));
+		}
+
 	}
-	}
-	// 4. Print ALL the digits of of Pi (hint: use a loop)
-
-	// 5. Use the speak() method to speak all the digits of Pi.
 
 	// [ADVANCED]
 	// *6. Get a character from the user using the getInputFromUser() method
+
 	// *7. Compare the users' char to the next digit of Pi
-	// *8. If they are correct, print out "correct". If they are not, print "incorrect" to System.err.println
+
+	// *8. If they are correct, print out "correct". If they are not, print
+	// "incorrect" to System.err.println
 
 	static void speak(char characterToSpeak) {
 		try {
@@ -45,12 +62,9 @@ System.out.println(pi.charAt(0)+ " " + pi.charAt(1) + pi.charAt(2) + pi.charAt(3
 		}
 	}
 
-
 	static char getInputFromUser() {
 		Scanner scanner = new Scanner(System.in);
 		return scanner.next().toCharArray()[0];
 	}
 
 }
-
-
