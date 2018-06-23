@@ -13,13 +13,15 @@ public class SleepyHead {
         
         /*
          * Ask the user for these values using
+         
          * JOptionPane.showConfirmDialog(null, "is it a weekday?", "",
          * JOptionPane.YES_NO_OPTION);
          */
     
-
-
-
+       int s= JOptionPane.showConfirmDialog(null, "is it a weekday?","",JOptionPane.YES_NO_OPTION);
+       
+       
+       int r= JOptionPane.showConfirmDialog(null, "is it a vacation?","",JOptionPane.YES_NO_OPTION);
 
 
         /*
@@ -27,5 +29,12 @@ public class SleepyHead {
          * print “get up lazybones!” If it is a weekday, and we are on vacation,
          * print “sleep in”.
          */
+        if(s==0||r==0) {
+        	System.out.println("sleep in");
+        }
+        else if(s==1) {
+        	System.out.println("get up ladybones!");
+        }
+       
     }
 }
