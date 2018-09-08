@@ -46,19 +46,67 @@ public class loops {
 			
 	//	}
 		
-	int num = 1++;
+	
+	
 	
 		
-		for (int i = 2002; i < 2019; i++) {
-			//for (int j = 1; j < 17; j++) {
+	//	for (int i = 2001; i <= 2018; i++) {
 				
-			
-			System.out.println("In "+i+" I was "+num+" years old");
-			
-		}
+	//		int n = (i-2001);
+	//		System.out.println("In "+i+", I was "+n+" years old");
+			 
+	//	}
 		
+	//	for (int i = 0; i < 3; i++) {
+		//	for (int j = 0; j < 3; j++) {
+		//		System.out.println(i+" "+j);
+				
+		//	}
+		//}
+		
+		//for (int i = 0; i < 7; i+=3) {
+			
+			
+			//for (int j = 1; j <=3; j++) {
+				
+				//System.out.print(i+j);	
+					
+				//}
+			
+				//System.out.println();
+			//}
+		
+	//	for (int i = 0; i < 100; i+=10) {
+		//	for (int j = 1; j < 11; j++) {
+			//	System.out.print(i+j);
+			//}
+			//System.out.println();
+		//}
+		
+	
+	for (int i = 1; i >=6; i++) {
+		for (int j = 0; j >1; j++) {
+			
+	
+		System.out.print(i+j);
+		}
+		System.out.println();	
+		}
+	
+	}
+	
+	
+	
+	http://level0.jointheleague.org/modules/Mod5Recipes/ForLoopGauntlet.html
+	
+	
+	}
 		
 		
 	
-}
-}
+		
+		
+	
+
+	
+
