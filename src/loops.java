@@ -84,20 +84,36 @@ public class loops {
 		//}
 		
 	
-	for (int i = 1; i >=6; i++) {
-		for (int j = 0; j >1; j++) {
+	//for (int i = 1; i < 7; i++) {
+		//for (int j = 0; j <i ; j++) {
 			
 	
-		System.out.print(i+j);
-		}
-		System.out.println();	
+		//System.out.print("*");
+		//}
+		//System.out.println();	
+		//}
+		
+		
+		for (int i = 0; i <100; i++) {
+			
+			
+				System.out.print(i);
+				
+			
+			System.out.println();
+			
+			
+			
+			
+			
+			
 		}
 	
 	}
 	
 	
 	
-	http://level0.jointheleague.org/modules/Mod5Recipes/ForLoopGauntlet.html
+	
 	
 	
 	}

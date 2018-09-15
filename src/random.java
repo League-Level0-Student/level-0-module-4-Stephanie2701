@@ -7,7 +7,7 @@ public class random {
 		
 		random i= new random();
 		
-		i
+		
 		
 		
 		

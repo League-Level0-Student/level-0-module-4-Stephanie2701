@@ -22,7 +22,7 @@ public class DontForgetTheLyrics {
 		// 4. Make a pop-up to explain the game.
 JOptionPane.showInternalConfirmDialog(null, "For this game, we'll play the start of a song, and you have to guess the rest of the lyrics.");
 		// 5. Use the playSound method to play your song.
-playSound(fileName);
+//playSound(fileName);
 
 		// 6. Make a pop-up for the player to type their answer.
 
